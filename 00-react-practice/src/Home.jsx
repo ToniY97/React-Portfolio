@@ -1,6 +1,6 @@
 import React from 'react';
 import headshot from './assets/images/my-photo.jpg';
-import './css';
+import './Home.css';
 
 function Home() {
   return (

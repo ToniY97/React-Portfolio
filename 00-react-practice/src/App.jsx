@@ -34,4 +34,29 @@
 
 // export default App
 
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './Header';
+import Home from './Home';
+import ProjectGallery from './ProjectGallery';
+import Project from './Project';
+import Contact from './Contact';
+import './styles/App.css';
 
+function App() {
+  return (
+    <Router>
+      <div className="app">
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/projects" component={ProjectGallery} />
+          <Route path="/project/:projectId" component={Project} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
