@@ -38,7 +38,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './Header.jsx';
 import Home from './Home.jsx';
-import ProjectGallery from './ProjectGallery.jsx';
+import ProjectGallery from './ProjectGallery.js';
 import Project from './Project.jsx';
 import Contact from './Contact.jsx';
 import './App.css';
