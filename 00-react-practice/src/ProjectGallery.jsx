@@ -1,7 +1,7 @@
 // ProjectGallery.js
 import React from 'react';
 import Project from './Project';
-import projectsData from '../data/projects.json';
+import projectsData from './projects.json';
 import './ProjectGallery.css';
 
 function ProjectGallery() {

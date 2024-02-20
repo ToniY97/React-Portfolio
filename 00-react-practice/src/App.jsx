@@ -36,12 +36,12 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './Header';
-import Home from './Home';
-import ProjectGallery from './ProjectGallery';
-import Project from './Project';
-import Contact from './Contact';
-import './styles/App.css';
+import Header from './Header.jsx';
+import Home from './Home.jsx';
+import ProjectGallery from './ProjectGallery.jsx';
+import Project from './Project.jsx';
+import Contact from './Contact.jsx';
+import './App.css';
 
 function App() {
   return (
