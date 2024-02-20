@@ -36,11 +36,11 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './src/Header.jsx';
-import Home from './src/Home.jsx';
-import ProjectGallery from './src/ProjectGallery.jsx';
-import Project from './src/Project.jsx';
-import Contact from './src/Contact.jsx';
+import Header from './Header.jsx';
+import Home from './Home.jsx';
+import ProjectGallery from './ProjectGallery.jsx';
+import Project from './Project.jsx';
+import Contact from './Contact.jsx';
 import './App.css';
 
 function App() {
