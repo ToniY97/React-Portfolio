@@ -1,0 +1,11 @@
+/* Home.css */
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.home img {
+  border-radius: 50%;
+  max-width: 200px;
+  margin-top: 20px;
+}
